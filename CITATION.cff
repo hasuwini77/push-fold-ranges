@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Nash push/fold ranges for 6-max and 9-max tournament poker"
+authors:
+  - name: "RangeMyHand"
+    website: "https://www.rangemyhand.com"
+version: "0.2.1"
+date-released: "2026-09-29"
+license: CC-BY-4.0
+url: "https://www.rangemyhand.com/methodology"
+repository-code: "https://github.com/hasuwini77/push-fold-ranges"
+keywords:
+  - poker
+  - push-fold
+  - nash-equilibrium
+  - dataset
