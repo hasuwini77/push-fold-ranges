@@ -7,7 +7,7 @@ This is a mirror of the open dataset published by [RangeMyHand](https://www.rang
 [www.rangemyhand.com/data/push-fold-ranges.csv](https://www.rangemyhand.com/data/push-fold-ranges.csv).
 It is regenerated from the same source on every range update. Do not edit it by hand.
 
-- **Version:** 0.2.1 · **ranges last verified:** 2026-09-29
+- **Version:** 0.3.0 · **ranges last verified:** 2026-10-12
 - **Coverage:** 169 hand classes × 225 spots (9 seats × 25 stacks) = 38,025 rows
 - **Methodology:** https://www.rangemyhand.com/methodology
 
@@ -24,7 +24,7 @@ It is regenerated from the same source on every range update. Do not edit it by 
 ## Model
 
 - chip-EV Nash push/fold equilibrium (fictitious play)
-- Stack convention: stack in big blinds behind the posted blinds; dead money 1.5BB (the blinds), no antes
+- Stack convention: total stack in big blinds before posting blinds; dead money 1.5BB (the blinds), no antes
 - 220 fictitious-play iterations, 6,000 equity samples per matchup, seed 3735928559
 - Chip-EV only: no ICM. Near a bubble or a final table the correct range is tighter.
 
@@ -63,7 +63,7 @@ Per-hand pages: [www.rangemyhand.com/push-fold/hands](https://www.rangemyhand.co
   title        = {Nash push/fold ranges for 6-max and 9-max tournament poker},
   author       = {{RangeMyHand}},
   year         = {2026},
-  version      = {0.2.1},
+  version      = {0.3.0},
   howpublished = {\url{https://www.rangemyhand.com/data/push-fold-ranges.json}},
   note         = {Mirror: https://github.com/hasuwini77/push-fold-ranges. Methodology: https://www.rangemyhand.com/methodology. License: CC BY 4.0}
 }

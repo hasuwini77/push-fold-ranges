@@ -5,8 +5,8 @@ title: "Nash push/fold ranges for 6-max and 9-max tournament poker"
 authors:
   - name: "RangeMyHand"
     website: "https://www.rangemyhand.com"
-version: "0.2.1"
-date-released: "2026-09-29"
+version: "0.3.0"
+date-released: "2026-10-12"
 license: CC-BY-4.0
 url: "https://www.rangemyhand.com/methodology"
 repository-code: "https://github.com/hasuwini77/push-fold-ranges"
